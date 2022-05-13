@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Install dependencies
         run: |
-          pip insatll poetry
+          pip install poetry
           make install
       - name: Run linter
         run: |
