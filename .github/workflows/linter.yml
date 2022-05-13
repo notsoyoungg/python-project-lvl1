@@ -5,7 +5,10 @@ jobs:
   start_linter:
     runs-on: ubuntu-latest
     steps:
-      run: |
-        pip install poetry
-        make install
-        make lint
+      - name: Install dependencies
+        run: |
+          pip insatll poetry
+          make install
+      - name: Run linter
+        run: |
+          make lint
