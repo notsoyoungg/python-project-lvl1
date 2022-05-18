@@ -1,7 +1,7 @@
 import prompt
 
 
-def main(func, variable):
+def logic(func, variable):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(variable)
