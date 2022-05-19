@@ -14,8 +14,8 @@ def logic(func, variable):
         if inp.lower() == str(data[1]).lower():
             print('Correct!')
             i += 1
-        if i == 3:
-            print(f'Congratulations, {name}!')
+            if i == 3:
+                print(f'Congratulations, {name}!')
         else:
             print(f"'{inp}' is wrong answer ;( Correct answer was '{data[1]}'.")
             print(f"Let's try again, {name}")
