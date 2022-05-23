@@ -18,5 +18,5 @@ def logic(func, variable):
                 print(f'Congratulations, {name}!')
         else:
             print(f"'{inp}' is wrong answer ;( Correct answer was '{data[1]}'.")
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
             break
