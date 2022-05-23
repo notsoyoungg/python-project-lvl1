@@ -4,7 +4,7 @@ from random import randint
 game_question = 'What is the result of the expression?'
 
 
-def game():
+def calc():
     action = choice(('*', '+', '-'))
     num1 = randint(1, 10)
     num2 = randint(1, 10)
