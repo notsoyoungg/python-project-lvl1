@@ -9,5 +9,4 @@ def game():
         correct_answer = 'yes'
     if question % 2 != 0:
         correct_answer = 'no'
-    cortege = (question, correct_answer)
-    return(cortege)
+    return(question, correct_answer)

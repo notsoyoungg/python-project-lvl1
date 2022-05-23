@@ -15,5 +15,4 @@ def game():
         correct_answer = num1 + num2
     if action == '-':
         correct_answer = num1 - num2
-    cortege = (question, correct_answer)
-    return(cortege)
+    return(question, correct_answer)
