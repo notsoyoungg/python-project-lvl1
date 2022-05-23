@@ -2,7 +2,11 @@
 name = "hexlet-code"
 version = "0.1.0"
 description = "Set of five mini-games"
+classifiers = [
+	"Topic :: Games/Entertainment"
+]
 authors = ["notsoyoungg <p.sergey1997@mail.ru>"]
+repository = "https://github.com/notsoyoungg/python-project-lvl1"
 packages = [
 	{ include = 'brain_games' },
 ]
