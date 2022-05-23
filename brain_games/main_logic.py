@@ -19,4 +19,3 @@ def logic(func, variable):
         else:
             print(f"'{inp}' is wrong answer ;( Correct answer was '{data[1]}'.")
             print(f"Let's try again, {name}!")
-            break
