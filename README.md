@@ -1,3 +1,4 @@
+### How to install ?
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/notsoyoungg/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/notsoyoungg/python-project-lvl1/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/b32c347a4d1ab9fc6b4b/maintainability)](https://codeclimate.com/github/notsoyoungg/python-project-lvl1/maintainability)
