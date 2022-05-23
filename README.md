@@ -4,6 +4,13 @@
 [![linter](https://github.com/notsoyoungg/python-project-lvl1/actions/workflows/linter.yml/badge.svg)](https://github.com/notsoyoungg/python-project-lvl1/actions/workflows/linter.yml)
 ### How to install:
 ```python3 -m pip install --user git+https://github.com/notsoyoungg/python-project-lvl1.git```
+### How to start the game:
+Enter any of this commands:
+```brain-even```
+```brain-calc```
+```brain-gcd```
+```brain-progression```
+```brain-prime```
 ### Brain-even demonstration:
 [![asciicast](https://asciinema.org/a/LET0DRmmt6CSZZefOiH3KmkLx.svg)](https://asciinema.org/a/LET0DRmmt6CSZZefOiH3KmkLx)
 ### Brain-calc demonstration:
