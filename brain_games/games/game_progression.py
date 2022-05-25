@@ -1,6 +1,6 @@
 from random import randint
 
-game_question = 'What number is missing in the progression?'
+GAME_QUESTION = 'What number is missing in the progression?'
 
 
 def game():
@@ -19,4 +19,4 @@ def game():
     question = ''
     for i in progression:
         question = question + str(i) + ' '
-    return(question, correct_answer)
+    return(question.strip(), correct_answer)

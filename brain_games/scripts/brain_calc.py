@@ -1,11 +1,10 @@
 #!/usr/bin/env python
-from ..main_logic import logic
-from ..games.game_calc import calc
-from ..games.game_calc import game_question
+from ..game_engine import start
+from ..games import game_calc
 
 
 def main():
-    logic(calc, game_question)
+    start(game_calc)
 
 
 if __name__ == '__main__':

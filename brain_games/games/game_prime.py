@@ -1,15 +1,19 @@
 from random import randint
 
-game_question = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+GAME_QUESTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def game():
     number = randint(1, 100)
+    return(number, check_for_prime(number))
+
+
+def check_for_prime(num):
     divisor = 2
-    while number % divisor != 0:
+    while num % divisor != 0:
         divisor += 1
-    if divisor == number:
+    if divisor == num:
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    return(number, correct_answer)
+    return(correct_answer)
