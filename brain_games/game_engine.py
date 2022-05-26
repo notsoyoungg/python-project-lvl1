@@ -15,7 +15,8 @@ def start(game):
         if inp.lower() == correct_answer:
             print('Correct!')
         else:
-            print(f"'{inp}' is wrong answer ;( Correct answer was '{correct_answer}'.")
+            print(f"'{inp}' is wrong answer ;( "
+                  f"Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}!')
