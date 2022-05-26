@@ -1,9 +1,9 @@
 from random import randint
 
-GAME_QUESTION = 'What number is missing in the progression?'
+RULES = 'What number is missing in the progression?'
 
 
-def game():
+def generate_round():
     progression_lenght = randint(5, 10)
     progression_step = randint(2, 4)
     first_member = randint(1, 20)
@@ -19,4 +19,4 @@ def game():
     question = ''
     for i in progression:
         question = question + str(i) + ' '
-    return(question.strip(), correct_answer)
+    return question.strip(), str(correct_answer)

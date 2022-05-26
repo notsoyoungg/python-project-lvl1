@@ -1,16 +1,16 @@
 from random import randint
 
-GAME_QUESTION = 'Find the greatest common divisor of given numbers.'
+RULES = 'Find the greatest common divisor of given numbers.'
 
 
-def game():
+def generate_round():
     a = randint(1, 50)
     b = randint(1, 50)
     question = (f'{a} {b}')
-    return(question, find_HCF(a, b))
+    return question, str(find_gcd(a, b))
 
 
-def find_HCF(num1, num2):
+def find_gcd(num1, num2):
     max_divisor = num1
     if num1 % num2 == 0:
         max_divisor = num2
@@ -25,4 +25,4 @@ def find_HCF(num1, num2):
                 break
             biggest_num = smallest_num
             smallest_num = result
-    return(max_divisor)
+    return max_divisor

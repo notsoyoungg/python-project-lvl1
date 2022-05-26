@@ -1,20 +1,21 @@
 import prompt
 
+ROUNDS_AMOUNT = 3
+
 
 def start(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
-    print(game.GAME_QUESTION)
-    ROUNDS_AMOUNT = 3
+    print(game.RULES)
     for i in range(ROUNDS_AMOUNT):
-        data = game.game()
-        print(f'Question: {data[0]}')
+        (question, correct_answer) = game.generate_round()
+        print(f'Question: {question}')
         inp = prompt.string('Your answer: ')
-        if inp.lower() == str(data[1]).lower():
+        if inp.lower() == correct_answer:
             print('Correct!')
         else:
-            print(f"'{inp}' is wrong answer ;( Correct answer was '{data[1]}'.")
+            print(f"'{inp}' is wrong answer ;( Correct answer was '{correct_answer}'.")
             print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}!')
