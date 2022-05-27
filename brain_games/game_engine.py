@@ -2,6 +2,7 @@ import prompt
 
 ROUNDS_AMOUNT = 3
 
+
 # не уверен, что правильно изменил функцию, т.к. код стал на срочку длиннее
 def start(game):
     print('Welcome to the Brain Games!')
