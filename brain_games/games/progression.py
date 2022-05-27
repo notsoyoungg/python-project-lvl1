@@ -4,12 +4,12 @@ RULES = 'What number is missing in the progression?'
 
 
 def generate_round():
-    progression_lenght = randint(5, 10)
+    progression_length = randint(5, 10)
     progression_step = randint(2, 4)
     first_member = randint(1, 20)
     i = 0
     progression = []
-    while i < progression_lenght:
+    while i < progression_length:
         progression.append(first_member + progression_step)
         first_member = first_member + progression_step
         i += 1
