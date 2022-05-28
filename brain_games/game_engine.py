@@ -3,13 +3,12 @@ import prompt
 ROUNDS_AMOUNT = 3
 
 
-# не уверен, что правильно изменил функцию, т.к. код стал на срочку длиннее
 def start(game):
     print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.RULES)
-    for i in range(ROUNDS_AMOUNT):
+    for _ in range(ROUNDS_AMOUNT):
         (question, correct_answer) = game.generate_round()
         print(f'Question: {question}')
         input = prompt.string('Your answer: ')
