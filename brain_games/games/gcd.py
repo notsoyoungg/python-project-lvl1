@@ -1,13 +1,13 @@
 from random import randint
 
-RULES = 'Find the greatest common divisor of given numbers.'
+RULE = 'Find the greatest common divisor of given numbers.'
 
 
 def generate_round():
-    a = randint(1, 50)
-    b = randint(1, 50)
-    question = (f'{a} {b}')
-    return question, str(find_gcd(a, b))
+    random_number1 = randint(1, 50)
+    random_number2 = randint(1, 50)
+    question = (f'{random_number1} {random_number2}')
+    return question, str(find_gcd(random_number1, random_number2))
 
 
 def find_gcd(num1, num2):

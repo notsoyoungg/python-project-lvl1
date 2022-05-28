@@ -1,7 +1,7 @@
 from random import choice
 from random import randint
 
-RULES = 'What is the result of the expression?'
+RULE = 'What is the result of the expression?'
 
 
 def generate_round():
