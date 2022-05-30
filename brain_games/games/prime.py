@@ -13,7 +13,7 @@ def generate_round():
 
 
 def is_prime(num):
-    if num == 0 or num == 1:
+    if num <= 1:
         return False
     divisor = 2
     while divisor <= sqrt(num):
